@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    transition: all .2s ease;
+}
+header {
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+header div {
+    margin: .5em;
+    box-shadow: .1em .1em .5em rgba(0, 0, 0, .2);
+}
+header input {
+    width: 12.5em;
+    padding: .24em .5em;
+    font-size: 1.1rem;
+    border: .2em solid rgb(0, 204, 255);
+    outline: none;
+}
+header button {
+    padding: .4em .6em;
+    font-size: 1.1rem;
+    background: rgb(0, 204, 255);
+    color: #fff;
+    border: none;
+    outline: none;
+}
+header button:hover {
+    background-color: #fff;
+    color: rgb(0, 204, 255);
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.card {
+    margin: 1em .5em;
+    padding: .4em .6em;
+    border: .1em solid rgb(63, 63, 63);
+    border-radius: .5em;
+    box-shadow: .1em .1em .9em rgba(0, 0, 0, .2);
+}
+.card p {
+    margin: .25em .25em .5em .25em;
+    font-size: 1.2rem;
+}
+.card img {
+    width: 17em;
+    height: 17em;
+    border-radius: .5em;
+    object-fit: cover;
+}
+.card:hover {
+    transform: scale(1.025);
+}
