@@ -38,11 +38,14 @@ header button:hover {
     background-color: #fff;
     color: rgb(0, 204, 255);
 }
+#back_btn {
+    margin-left: .2em;
+}
 
-#main {
+#main, #sub_main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 .card {
@@ -52,7 +55,7 @@ header button:hover {
     border-radius: .5em;
     box-shadow: .1em .1em .9em rgba(0, 0, 0, .2);
 }
-.card p {
+.card p{
     margin: .25em .25em .5em .25em;
     font-size: 1.2rem;
 }
@@ -64,4 +67,9 @@ header button:hover {
 }
 .card:hover {
     transform: scale(1.025);
+}
+.card ul {
+    width: 13em;
+    margin: .5em auto;
+    font-size: 1.1rem;
 }
